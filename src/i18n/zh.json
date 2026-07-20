@@ -315,18 +315,9 @@
     "alsoKnownAs": {
       "title": "它还有这些名字",
       "items": [
-        {
-          "icon": "🇹🇭",
-          "text": "泰文官方名：ไนท์บาซาร์เชียงใหม่ (Chiang Mai Night Bazaar)"
-        },
-        {
-          "icon": "🏛️",
-          "text": "历史街区名：昌堪路市集 (Changklan Shopping District)"
-        },
-        {
-          "icon": "🗣️",
-          "text": "本地简称：Night Bazaar (ไนท์บาซาร์)"
-        }
+        "官方泰语：ไนท์บาซาร์เชียงใหม่",
+        "英文全称：Chiang Mai Night Bazaar",
+        "历史街区：昌堪路市集（Changklan Market）"
       ]
     }
   },

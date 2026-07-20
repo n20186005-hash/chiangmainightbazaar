@@ -315,18 +315,9 @@
     "alsoKnownAs": {
       "title": "ชื่อเรียกอื่น",
       "items": [
-        {
-          "icon": "🌐",
-          "text": "Night Bazaar Chiang Mai (ชื่ออังกฤษนิยม)"
-        },
-        {
-          "icon": "🇹🇭",
-          "text": "ไนท์บาซาร์เชียงใหม่ (ไทย)"
-        },
-        {
-          "icon": "🗺️",
-          "text": "ตลาดช้างคลาน / Chiang Mai Night Bazaar"
-        }
+        "ชื่อทางการ: ไนท์บาซาร์เชียงใหม่",
+        "ภาษาอังกฤษ: Chiang Mai Night Bazaar",
+        "ย่านประวัติศาสตร์: ตลาดช้างคลาน (Changklan Market)"
       ]
     }
   },

@@ -315,18 +315,9 @@
     "alsoKnownAs": {
       "title": "Also known as",
       "items": [
-        {
-          "icon": "🌐",
-          "text": "Night Bazaar Chiang Mai (common English name)"
-        },
-        {
-          "icon": "🇹🇭",
-          "text": "ไนท์บาซาร์เชียงใหม่ (Thai)"
-        },
-        {
-          "icon": "🗺️",
-          "text": "Changklan Night Market / Chiang Mai Night Bazaar"
-        }
+        "Official Thai: ไนท์บาซาร์เชียงใหม่",
+        "English: Chiang Mai Night Bazaar",
+        "Historical area: Changklan Market"
       ]
     }
   },
