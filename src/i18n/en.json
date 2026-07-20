@@ -55,20 +55,64 @@
       "quote": "After dark, the lanterns along Changklan light up one by one, and the whole city seems gently woken.",
       "attribution": "— A long-time Night Bazaar vendor"
     },
-    "tags": ["Night market", "Lanna crafts", "Street food", "Bargaining", "Night photography"],
-    "routeCta": { "label": "See night route", "href": "#route" },
-    "historyCta": { "label": "Read the story", "href": "#history" },
-    "quickFacts": [
-      { "icon": "📍", "label": "Coords", "value": "18.7873° N, 98.9925° E" },
-      { "icon": "🕗", "label": "Hours", "value": "Daily 18:00–23:00" },
-      { "icon": "💸", "label": "Entry", "value": "Free entry" },
-      { "icon": "🛍️", "label": "Scale", "value": "Hundreds of stalls · crafts galore" },
-      { "icon": "🌉", "label": "Where", "value": "Changklan Rd · east bank of Mae Ping" }
+    "tags": [
+      "Night market",
+      "Lanna crafts",
+      "Street food",
+      "Bargaining",
+      "Night photography"
     ],
-    "navCta": { "label": "Quick facts", "href": "#quick-facts" },
-    "photoCta": { "label": "See gallery", "href": "#gallery" },
-    "factsSource": { "label": "Hours & transport per Chiang Mai public info", "url": "https://www.chiangmai.go.th" },
-    "liveInfo": { "weather": "Live weather", "sunset": "Today's sunset" },
+    "routeCta": {
+      "label": "See night route",
+      "href": "#route"
+    },
+    "historyCta": {
+      "label": "Read the story",
+      "href": "#history"
+    },
+    "quickFacts": [
+      {
+        "icon": "📍",
+        "label": "Coords",
+        "value": "18.7873° N, 98.9925° E"
+      },
+      {
+        "icon": "🕗",
+        "label": "Hours",
+        "value": "Daily 18:00–23:00"
+      },
+      {
+        "icon": "💸",
+        "label": "Entry",
+        "value": "Free entry"
+      },
+      {
+        "icon": "🛍️",
+        "label": "Scale",
+        "value": "Hundreds of stalls · crafts galore"
+      },
+      {
+        "icon": "🌉",
+        "label": "Where",
+        "value": "Changklan Rd · east bank of Mae Ping"
+      }
+    ],
+    "navCta": {
+      "label": "Quick facts",
+      "href": "#quick-facts"
+    },
+    "photoCta": {
+      "label": "See gallery",
+      "href": "#gallery"
+    },
+    "factsSource": {
+      "label": "Hours & transport per Chiang Mai public info",
+      "url": "https://www.chiangmai.go.th"
+    },
+    "liveInfo": {
+      "weather": "Live weather",
+      "sunset": "Today's sunset"
+    },
     "sunsetPlanner": {
       "eyebrow": "Golden window for your night out",
       "title": "Sunset & blue hour",
@@ -86,37 +130,94 @@
     "title": "Night Bazaar at a glance",
     "subtitle": "Everything you need about this night-market promenade on one screen.",
     "items": [
-      { "icon": "📍", "label": "Area", "value": "Chiang Mai · Changklan Rd", "note": "East bank of the Mae Ping, southeast of the Old City, ~1.5 km south of Tha Phae Gate." },
-      { "icon": "🕗", "label": "Hours", "value": "Daily 18:00–23:00", "note": "Some restaurants and bars run later; busier in high season." },
-      { "icon": "💸", "label": "Entry", "value": "Free entry", "note": "Free to walk; spending depends on stalls and bargaining." },
-      { "icon": "🛍️", "label": "Scale", "value": "Hundreds of stalls", "note": "Crafts, clothing, aromatherapy, original design and souvenirs of every kind." },
-      { "icon": "🌃", "label": "Best time", "value": "18:30–21:00", "note": "Blue hour lights are prettiest; after 21:00 it's good for slow strolls and food." },
-      { "icon": "🚶", "label": "Walkable", "value": "~20 min from Tha Phae Gate", "note": "Or hop a red Songthaew / tuk-tuk straight to the market mouth." }
+      {
+        "icon": "📍",
+        "label": "Area",
+        "value": "Chiang Mai · Changklan Rd",
+        "note": "East bank of the Mae Ping, southeast of the Old City, ~1.5 km south of Tha Phae Gate."
+      },
+      {
+        "icon": "🕗",
+        "label": "Hours",
+        "value": "Daily 18:00–23:00",
+        "note": "Some restaurants and bars run later; busier in high season."
+      },
+      {
+        "icon": "💸",
+        "label": "Entry",
+        "value": "Free entry",
+        "note": "Free to walk; spending depends on stalls and bargaining."
+      },
+      {
+        "icon": "🛍️",
+        "label": "Scale",
+        "value": "Hundreds of stalls",
+        "note": "Crafts, clothing, aromatherapy, original design and souvenirs of every kind."
+      },
+      {
+        "icon": "🌃",
+        "label": "Best time",
+        "value": "18:30–21:00",
+        "note": "Blue hour lights are prettiest; after 21:00 it's good for slow strolls and food."
+      },
+      {
+        "icon": "🚶",
+        "label": "Walkable",
+        "value": "~20 min from Tha Phae Gate",
+        "note": "Or hop a red Songthaew / tuk-tuk straight to the market mouth."
+      }
     ]
   },
   "hiddenRules": {
     "title": "Local tricks the regulars know",
     "subtitle": "Tips from vendors and seasoned visitors to make your visit easier.",
     "highlights": [
-      { "icon": "💬", "label": "Bargain is normal", "value": "Asking prices have padding", "note": "Crafts and clothing are usually negotiable — ask politely and smile." },
-      { "icon": "🧭", "label": "Zones differ", "value": "Main st · alleys · Anusarn", "note": "Main street is touristy; alleys and Anusarn Market are more local and cheaper." },
-      { "icon": "🍜", "label": "Taste first", "value": "Food stalls offer samples", "note": "Dried fruit, nuts and sausages are often for tasting before you buy." }
+      {
+        "icon": "💬",
+        "label": "Bargain is normal",
+        "value": "Asking prices have padding",
+        "note": "Crafts and clothing are usually negotiable — ask politely and smile."
+      },
+      {
+        "icon": "🧭",
+        "label": "Zones differ",
+        "value": "Main st · alleys · Anusarn",
+        "note": "Main street is touristy; alleys and Anusarn Market are more local and cheaper."
+      },
+      {
+        "icon": "🍜",
+        "label": "Taste first",
+        "value": "Food stalls offer samples",
+        "note": "Dried fruit, nuts and sausages are often for tasting before you buy."
+      }
     ],
     "panels": [
       {
         "q": "When are crowds smallest and it's best to browse?",
         "a": "For an easy visit, come right at 18:00 opening or after 21:30 when the peak passes.",
-        "items": ["18:00–18:30: stalls just open, good light, few people", "19:00–21:00: liveliest and most crowded", "After 21:30: locals slow-stroll and eat"]
+        "items": [
+          "18:00–18:30: stalls just open, good light, few people",
+          "19:00–21:00: liveliest and most crowded",
+          "After 21:30: locals slow-stroll and eat"
+        ]
       },
       {
         "q": "How do I know whether to bargain?",
         "a": "Stores marked 'Fixed Price' or chains usually don't negotiate; independent craft stalls often do.",
-        "items": ["Smile first, then ask 'best price'", "Buying several? Ask for a bundle price", "Cash is preferred — carry small change"]
+        "items": [
+          "Smile first, then ask 'best price'",
+          "Buying several? Ask for a bundle price",
+          "Cash is preferred — carry small change"
+        ]
       },
       {
         "q": "With kids or seniors, how to browse comfortably?",
         "a": "The main street has shade and seating; alleys are narrower. Avoid peaks and drink water.",
-        "items": ["Enter from the north mouth at a slower pace", "Air-conditioned restaurants in the food zone for breaks", "Watch belongings in dense crowds"]
+        "items": [
+          "Enter from the north mouth at a slower pace",
+          "Air-conditioned restaurants in the food zone for breaks",
+          "Watch belongings in dense crowds"
+        ]
       }
     ]
   },
@@ -124,10 +225,26 @@
     "title": "Etiquette & safety tips",
     "subtitle": "A few small rules so buyers and sellers both feel comfortable.",
     "rules": [
-      { "badge": "Bargain", "title": "Bargain politely", "text": "Smile while negotiating; if it doesn't work, part friendly. Don't bad-mouth a vendor in front of another stall." },
-      { "badge": "Photos", "title": "Ask first", "text": "Before photographing vendors, artisans or portraits for sale, ask politely. Photos of goods are usually fine." },
-      { "badge": "Buying", "title": "Check before you pay", "text": "For replica goods, confirm rights and use; before paying, confirm price, bag and shipping." },
-      { "badge": "Safety", "title": "Mind your belongings", "text": "In dense crowds wear your bag in front and keep phone and wallet close; take a licensed Songthaew or ride-hailing at night." }
+      {
+        "badge": "Bargain",
+        "title": "Bargain politely",
+        "text": "Smile while negotiating; if it doesn't work, part friendly. Don't bad-mouth a vendor in front of another stall."
+      },
+      {
+        "badge": "Photos",
+        "title": "Ask first",
+        "text": "Before photographing vendors, artisans or portraits for sale, ask politely. Photos of goods are usually fine."
+      },
+      {
+        "badge": "Buying",
+        "title": "Check before you pay",
+        "text": "For replica goods, confirm rights and use; before paying, confirm price, bag and shipping."
+      },
+      {
+        "badge": "Safety",
+        "title": "Mind your belongings",
+        "text": "In dense crowds wear your bag in front and keep phone and wallet close; take a licensed Songthaew or ride-hailing at night."
+      }
     ]
   },
   "higashiyamaRoute": {
@@ -138,25 +255,37 @@
         "title": "17:30 · Sunset at Tha Phae Gate",
         "meta": "Dusk · East gate of Old City",
         "text": "Start with the Old City wall and sunset at Tha Phae Gate, feed the pigeons and take photos as a prelude.",
-        "tips": ["Walk ~20 min to the market from Tha Phae", "Or take a red Songthaew south along the main road"]
+        "tips": [
+          "Walk ~20 min to the market from Tha Phae",
+          "Or take a red Songthaew south along the main road"
+        ]
       },
       {
         "title": "18:30 · Browse the main street",
         "meta": "Opening · Changklan Rd",
         "text": "Enter from the north mouth along Changklan; see crafts and original design first — blue hour lights are most photogenic.",
-        "tips": ["Stall lights turn on ~30 min after sunset", "Photo first, eat later, for a smoother flow"]
+        "tips": [
+          "Stall lights turn on ~30 min after sunset",
+          "Photo first, eat later, for a smoother flow"
+        ]
       },
       {
         "title": "19:30 · Eat at Anusarn Market",
         "meta": "Dinner · food alleys",
         "text": "Step into Anusarn Market behind the bazaar and the food street for northern Thai BBQ, mango sticky rice and fresh juice.",
-        "tips": ["Food stalls often let you taste first", "Popular restaurants fill early — go a bit sooner"]
+        "tips": [
+          "Food stalls often let you taste first",
+          "Popular restaurants fill early — go a bit sooner"
+        ]
       },
       {
         "title": "21:00 · Bars & live music",
         "meta": "Nightlife · around Loi Kroh",
         "text": "The south end connects to Loi Kroh Road; bars along the way have live music — sit, listen and digest.",
-        "tips": ["For quiet, choose the air-conditioned night-zone of Anantara", "Take a licensed ride back, note the plate"]
+        "tips": [
+          "For quiet, choose the air-conditioned night-zone of Anantara",
+          "Take a licensed ride back, note the plate"
+        ]
       }
     ],
     "disclaimer": "Route is experience-based; actual opening hours and transport follow on-site conditions. High season is busier — allow extra time."
@@ -169,17 +298,35 @@
       "eyebrow": "Night-out tips",
       "description": "Treat the bazaar as a combo of 'slow browse + eat + hunt for goods', not a race.",
       "items": [
-        { "icon": "🧭", "text": "Main street first, alleys later: main street for lights and souvenirs, alleys (Anusarn) more local and cheaper." },
-        { "icon": "🍜", "text": "Save room for the food street: northern BBQ, sausages, mango sticky rice and fresh juice are worth trying." },
-        { "icon": "🛍️", "text": "Hunt crafts slowly: Lanna silver, cotton, paper art and aromatherapy are often negotiable — compare three shops." }
+        {
+          "icon": "🧭",
+          "text": "Main street first, alleys later: main street for lights and souvenirs, alleys (Anusarn) more local and cheaper."
+        },
+        {
+          "icon": "🍜",
+          "text": "Save room for the food street: northern BBQ, sausages, mango sticky rice and fresh juice are worth trying."
+        },
+        {
+          "icon": "🛍️",
+          "text": "Hunt crafts slowly: Lanna silver, cotton, paper art and aromatherapy are often negotiable — compare three shops."
+        }
       ]
     },
     "alsoKnownAs": {
       "title": "Also known as",
       "items": [
-        { "icon": "🌐", "text": "Night Bazaar Chiang Mai (common English name)" },
-        { "icon": "🇹🇭", "text": "ไนท์บาซาร์เชียงใหม่ (Thai)" },
-        { "icon": "🗺️", "text": "Changklan Night Market / Chiang Mai Night Bazaar" }
+        {
+          "icon": "🌐",
+          "text": "Night Bazaar Chiang Mai (common English name)"
+        },
+        {
+          "icon": "🇹🇭",
+          "text": "ไนท์บาซาร์เชียงใหม่ (Thai)"
+        },
+        {
+          "icon": "🗺️",
+          "text": "Changklan Night Market / Chiang Mai Night Bazaar"
+        }
       ]
     }
   },
@@ -202,11 +349,24 @@
         "icon": "🚶",
         "title": "Walk from the Old City",
         "description": "From Tha Phae Gate head southeast; riverside shops and views along the way, about 20 minutes.",
-        "details": ["Start southeast from Tha Phae Gate", "Follow the riverside pavement", "Arrive at the north mouth of the market"],
+        "details": [
+          "Start southeast from Tha Phae Gate",
+          "Follow the riverside pavement",
+          "Arrive at the north mouth of the market"
+        ],
         "steps": [
-          { "n": "1", "t": "Head southeast from Tha Phae" },
-          { "n": "2", "t": "Walk south on the main pavement" },
-          { "n": "3", "t": "~20 min to the north mouth" }
+          {
+            "n": "1",
+            "t": "Head southeast from Tha Phae"
+          },
+          {
+            "n": "2",
+            "t": "Walk south on the main pavement"
+          },
+          {
+            "n": "3",
+            "t": "~20 min to the north mouth"
+          }
         ]
       },
       {
@@ -214,11 +374,24 @@
         "icon": "🚐",
         "title": "Red Songthaew",
         "description": "Chiang Mai's cheapest shared ride — wave it down, name your destination, ~30–60 THB per person.",
-        "details": ["Wave down along the Old City", "Say 'Night Bazaar' or 'Changklan'", "Pay cash per person on exit"],
+        "details": [
+          "Wave down along the Old City",
+          "Say 'Night Bazaar' or 'Changklan'",
+          "Pay cash per person on exit"
+        ],
         "steps": [
-          { "n": "1", "t": "Wave down roadside" },
-          { "n": "2", "t": "Tell driver Night Bazaar" },
-          { "n": "3", "t": "Alight at the market mouth" }
+          {
+            "n": "1",
+            "t": "Wave down roadside"
+          },
+          {
+            "n": "2",
+            "t": "Tell driver Night Bazaar"
+          },
+          {
+            "n": "3",
+            "t": "Alight at the market mouth"
+          }
         ]
       },
       {
@@ -226,11 +399,24 @@
         "icon": "📱",
         "title": "Grab / Bolt",
         "description": "Accurate location and transparent price — handy for night returns and luggage.",
-        "details": ["App to Night Bazaar Chiang Mai", "Confirm plate before boarding", "Mind your bag in crowds"],
+        "details": [
+          "App to Night Bazaar Chiang Mai",
+          "Confirm plate before boarding",
+          "Mind your bag in crowds"
+        ],
         "steps": [
-          { "n": "1", "t": "Enter destination in app" },
-          { "n": "2", "t": "Check plate and driver" },
-          { "n": "3", "t": "Board at the point" }
+          {
+            "n": "1",
+            "t": "Enter destination in app"
+          },
+          {
+            "n": "2",
+            "t": "Check plate and driver"
+          },
+          {
+            "n": "3",
+            "t": "Board at the point"
+          }
         ]
       }
     ],
@@ -241,16 +427,34 @@
       "colDistance": "Distance",
       "colPrice": "Estimate",
       "options": [
-        { "name": "Hotel roadside parking", "distance": "At market mouth", "price": "Free for guests / hourly for visitors" },
-        { "name": "Nearby mall parking", "distance": "3–5 min walk", "price": "~20–40 THB/hour" },
-        { "name": "Songthaew / ride-hailing", "distance": "5–10 min from Old City", "price": "~30–80 THB/person" }
+        {
+          "name": "Hotel roadside parking",
+          "distance": "At market mouth",
+          "price": "Free for guests / hourly for visitors"
+        },
+        {
+          "name": "Nearby mall parking",
+          "distance": "3–5 min walk",
+          "price": "~20–40 THB/hour"
+        },
+        {
+          "name": "Songthaew / ride-hailing",
+          "distance": "5–10 min from Old City",
+          "price": "~30–80 THB/person"
+        }
       ],
       "disclaimer": "Prices are public estimates; on-site rates apply."
     },
     "driverFaqTitle": "Self-drive FAQ",
     "driverFaq": [
-      { "q": "Is night parking safe?", "a": "Use staffed hotel or mall lots, keep valuables on you, nothing left in the car." },
-      { "q": "Hard to get a ride back?", "a": "Pre-book via Grab/Bolt, or walk to the main road for a Songthaew; off-peak in high season." }
+      {
+        "q": "Is night parking safe?",
+        "a": "Use staffed hotel or mall lots, keep valuables on you, nothing left in the car."
+      },
+      {
+        "q": "Hard to get a ride back?",
+        "a": "Pre-book via Grab/Bolt, or walk to the main road for a Songthaew; off-peak in high season."
+      }
     ],
     "localTipsTitle": "Local tips",
     "localTips": [
@@ -281,9 +485,18 @@
         "title": "Lanna era: 'Changkhlan', the elephant stake",
         "content": "'Chang Khlan' (Changklan) means 'elephant stake' in Lanna — said to be where caravans and elephant trains once tethered and rested. As the heart of the Lanna Kingdom, Chiang Mai was a trade and pilgrimage corridor between Myanmar, Laos and Siam, and Changklan Road sat on the vital path from the Old City to the Mae Ping ferry.",
         "cards": [
-          { "title": "Name origin", "text": "'Chang Khlan' literally means 'elephant stake', echoing old elephant-train rest stops." },
-          { "title": "Lanna trade road", "text": "Changklan linked the Old City to the river ferry — part of the ancient north–south corridor." },
-          { "title": "Riverside settlement", "text": "The east bank had wharves and market sprouts early, foreshadowing today's bazaar." }
+          {
+            "title": "Name origin",
+            "text": "'Chang Khlan' literally means 'elephant stake', echoing old elephant-train rest stops."
+          },
+          {
+            "title": "Lanna trade road",
+            "text": "Changklan linked the Old City to the river ferry — part of the ancient north–south corridor."
+          },
+          {
+            "title": "Riverside settlement",
+            "text": "The east bank had wharves and market sprouts early, foreshadowing today's bazaar."
+          }
         ]
       },
       {
@@ -291,9 +504,18 @@
         "title": "Lao migrant community & the south-city layout",
         "content": "In the late 18th century, when Chiang Mai's ruler Kawila rebuilt the city, he resettled a group of Lao (Lao Vieng / Lao Luang) people to the south-city area; Lao communities and temples (such as Wat Buppharam) formed around Changklan. Diverse groups lived side by side, bringing crafts, weaving and market culture — the distant root of the bazaar's 'handmade + food' character.",
         "cards": [
-          { "title": "Lao migrants", "text": "Kawila's resettled Lao community shaped the south-city ethnic and craft base." },
-          { "title": "Temples & markets", "text": "Community temples spurred festivals and nearby markets; commerce continues today." },
-          { "title": "Craft DNA", "text": "Weaving, silver and paper arts from home workshops are sources of bazaar goods." }
+          {
+            "title": "Lao migrants",
+            "text": "Kawila's resettled Lao community shaped the south-city ethnic and craft base."
+          },
+          {
+            "title": "Temples & markets",
+            "text": "Community temples spurred festivals and nearby markets; commerce continues today."
+          },
+          {
+            "title": "Craft DNA",
+            "text": "Weaving, silver and paper arts from home workshops are sources of bazaar goods."
+          }
         ]
       },
       {
@@ -301,9 +523,18 @@
         "title": "Tourism era: the birth of the night market",
         "content": "In the 1980s–90s, as Chiang Mai tourism boomed, hostels, travel agencies and craft shops along Changklan began selling unsold daytime goods in the evening. Over time stalls merged into a fixed 'night market'; the adjacent Anusarn Market and Kalare night zone took shape, and Changklan Road night market became Chiang Mai's best-known night-life landmark, written into countless travel guides.",
         "cards": [
-          { "title": "From stalls to market", "text": "Evening craft stalls gradually merged into a fixed night market." },
-          { "title": "Anusarn Market", "text": "The food and clothing market behind the bazaar — more local, more affordable." },
-          { "title": "Travel guide fame", "text": "Featured in global guides, it became synonymous with Chiang Mai nights." }
+          {
+            "title": "From stalls to market",
+            "text": "Evening craft stalls gradually merged into a fixed night market."
+          },
+          {
+            "title": "Anusarn Market",
+            "text": "The food and clothing market behind the bazaar — more local, more affordable."
+          },
+          {
+            "title": "Travel guide fame",
+            "text": "Featured in global guides, it became synonymous with Chiang Mai nights."
+          }
         ]
       },
       {
@@ -311,9 +542,18 @@
         "title": "Today's bazaar: a promenade of crafts & nightlife",
         "content": "Today's Night Bazaar Chiang Mai spreads along Changklan Road, blending handicrafts, original design, clothing, aromatherapy, replica knick-knacks and street food. Its south end connects to the Loi Kroh bar street; the north mouth nears the Mae Ping and Tha Phae Gate. It is both a treasure-hunt for visitors and a place for locals to eat out, stroll and hear live music — a city promenade still growing.",
         "cards": [
-          { "title": "Main st & alleys", "text": "Main street is touristy; alleys and Anusarn are more local and cheaper." },
-          { "title": "Nightlife extension", "text": "South meets Loi Kroh bar street — live music and late eats together." },
-          { "title": "Still growing", "text": "The market form tweaks year by year with tourism and urban updates." }
+          {
+            "title": "Main st & alleys",
+            "text": "Main street is touristy; alleys and Anusarn are more local and cheaper."
+          },
+          {
+            "title": "Nightlife extension",
+            "text": "South meets Loi Kroh bar street — live music and late eats together."
+          },
+          {
+            "title": "Still growing",
+            "text": "The market form tweaks year by year with tourism and urban updates."
+          }
         ]
       }
     ],
@@ -329,41 +569,35 @@
     "intro": "The market isn't a single enclosed hall but an open stretch along Changklan Road. Below is a thematic split to help you orient.",
     "items": [
       {
-        "id": "north",
-        "badge": "North",
-        "title": "Changklan North (Main Street)",
-        "koTitle": "Main Street",
-        "koTitleZh": "主街",
-        "location": "Enter from Tha Phae side",
-        "body": "The lantern-and-souvenir main street; crafts, clothing and aromatherapy cluster here — photo first, then hunt for goods."
+        "name": "Changklan North (Main St)",
+        "feature": "Glowing lights, endless stalls of crafts, cotton and aroma.",
+        "audience": "Photographers, first-timers",
+        "time": "18:30–20:00"
       },
       {
-        "id": "anusarn",
-        "badge": "Alleys",
-        "title": "Anusarn Market",
-        "koTitle": "Anusarn Market",
-        "koTitleZh": "阿努珊市场",
-        "location": "Behind the main street",
-        "body": "More local, cheaper food and clothing alleys; viral restaurants and snack stalls gather here."
+        "name": "Anusarn Market",
+        "feature": "Open-air food stalls, northern BBQ, seafood, local clothes.",
+        "audience": "Foodies, bargain hunters",
+        "time": "19:30–21:30"
       },
       {
-        "id": "kalare",
-        "badge": "East",
-        "title": "Kalare Night Bazaar",
-        "koTitle": "Kalare Night Bazaar",
-        "koTitleZh": "Kalare 夜市",
-        "location": "East side of main street",
-        "body": "Focused on dining and live shows, with a stage and bar vibe — good for dinner and music."
+        "name": "Kalare Night Bazaar",
+        "feature": "Fixed stage, Lanna dances and modern live music.",
+        "audience": "Music lovers, beer drinkers",
+        "time": "20:00–22:00"
       },
       {
-        "id": "loikroh",
-        "badge": "South",
-        "title": "Loi Kroh Bar Street",
-        "koTitle": "Loi Kroh Road",
-        "koTitleZh": "Loi Kroh 路",
-        "location": "South extension of the market",
-        "body": "Bars and live music along the street, the nightlife extension; want quiet? Head to the north mouth."
+        "name": "Loi Kroh Extension",
+        "feature": "Western bars, sports bars, vibrant nightlife.",
+        "audience": "Energetic night owls",
+        "time": "21:30–Late"
       }
+    ],
+    "headers": [
+      "Area Name",
+      "Core Features",
+      "Best For",
+      "Prime Time"
     ]
   },
   "gallery": {
@@ -397,15 +631,44 @@
     "moreReviews": "See more",
     "mapsUrl": "https://maps.app.goo.gl/CgkAU1Y8EnZAPQxe8",
     "featured": [
-      { "text": "The lanterns blew me away the first time — the whole street feels like an open-air party.", "source": "— Independent traveler" },
-      { "text": "Crafts are richer than expected; hunt slowly and you'll find something special.", "source": "— Designer" },
-      { "text": "Best to come at dusk; blue-hour photos are stunning and food is cheap.", "source": "— Photography lover" }
+      {
+        "text": "The lanterns blew me away the first time — the whole street feels like an open-air party.",
+        "source": "— Independent traveler"
+      },
+      {
+        "text": "Crafts are richer than expected; hunt slowly and you'll find something special.",
+        "source": "— Designer"
+      },
+      {
+        "text": "Best to come at dusk; blue-hour photos are stunning and food is cheap.",
+        "source": "— Photography lover"
+      }
     ],
     "items": [
-      { "name": "Amara K.", "date": "2025-12", "rating": 5, "text": "Walked over from Tha Phae just in time for dark — lights on, the street came alive. So many craft stalls, bargaining was fun, food street stuffed me." },
-      { "name": "Li Wen", "date": "2025-11", "rating": 4, "text": "Huge scale, easy to get lost first time. Main street then alleys; Anusarn is cheaper. Crowded but atmospheric." },
-      { "name": "Tomoko S.", "date": "2025-10", "rating": 5, "text": "Changklan in blue hour is so photogenic. Bought lots of aromatherapy and cotton. Live music nice — worth returning." },
-      { "name": "Weerapong", "date": "2025-09", "rating": 4, "text": "Locals come for late eats too. Peak season is packed; after 21:30 it's calmer and prices talk down more." }
+      {
+        "name": "Amara K.",
+        "date": "2025-12",
+        "rating": 5,
+        "text": "Walked over from Tha Phae just in time for dark — lights on, the street came alive. So many craft stalls, bargaining was fun, food street stuffed me."
+      },
+      {
+        "name": "Li Wen",
+        "date": "2025-11",
+        "rating": 4,
+        "text": "Huge scale, easy to get lost first time. Main street then alleys; Anusarn is cheaper. Crowded but atmospheric."
+      },
+      {
+        "name": "Tomoko S.",
+        "date": "2025-10",
+        "rating": 5,
+        "text": "Changklan in blue hour is so photogenic. Bought lots of aromatherapy and cotton. Live music nice — worth returning."
+      },
+      {
+        "name": "Weerapong",
+        "date": "2025-09",
+        "rating": 4,
+        "text": "Locals come for late eats too. Peak season is packed; after 21:30 it's calmer and prices talk down more."
+      }
     ]
   },
   "mapSection": {
@@ -429,9 +692,18 @@
     "mapsLabel": "Google Maps →",
     "mapsUrl": "https://maps.app.goo.gl/CgkAU1Y8EnZAPQxe8",
     "officialLinksList": [
-      { "name": "Chiang Mai Municipality", "url": "https://www.chiangmai.go.th" },
-      { "name": "Tourism Authority of Thailand (TAT)", "url": "https://www.tourismthailand.org" },
-      { "name": "Thai Meteorological Department (TMD)", "url": "https://www.tmd.go.th" }
+      {
+        "name": "Chiang Mai Municipality",
+        "url": "https://www.chiangmai.go.th"
+      },
+      {
+        "name": "Tourism Authority of Thailand (TAT)",
+        "url": "https://www.tourismthailand.org"
+      },
+      {
+        "name": "Thai Meteorological Department (TMD)",
+        "url": "https://www.tmd.go.th"
+      }
     ],
     "disclaimer": "This site is not affiliated with any business or hotel; the map link is a public Google Maps location and reviews are illustrative.",
     "dataSource": "Sources: Tourism Authority of Thailand, Chiang Mai Municipality public info and public map services.",
@@ -441,26 +713,54 @@
     "title": "Privacy Policy",
     "lastUpdated": "Last updated: 2026-01",
     "sections": [
-      { "heading": "What we collect", "content": "This is a static educational site — no forced login, no sale of personal data. We only store your language and theme preference (Cookie) locally." },
-      { "heading": "Third-party services", "content": "Pages may load public interfaces such as maps and weather; those requests follow the respective providers' privacy policies." },
-      { "heading": "Your rights", "content": "You can clear browser Cookies anytime to reset preferences. We do not track your identity." }
+      {
+        "heading": "What we collect",
+        "content": "This is a static educational site — no forced login, no sale of personal data. We only store your language and theme preference (Cookie) locally."
+      },
+      {
+        "heading": "Third-party services",
+        "content": "Pages may load public interfaces such as maps and weather; those requests follow the respective providers' privacy policies."
+      },
+      {
+        "heading": "Your rights",
+        "content": "You can clear browser Cookies anytime to reset preferences. We do not track your identity."
+      }
     ]
   },
   "terms": {
     "title": "Terms of Use",
     "lastUpdated": "Last updated: 2026-01",
     "sections": [
-      { "heading": "Content nature", "content": "Content is non-profit educational compilation; we strive to verify public sources but it is not travel or commercial advice." },
-      { "heading": "Limitation of liability", "content": "We are not liable for losses from delayed info or on-site changes; follow on-site and official info." },
-      { "heading": "External links", "content": "Off-site links (maps, official sites) are run by their owners; clicking accepts their terms." }
+      {
+        "heading": "Content nature",
+        "content": "Content is non-profit educational compilation; we strive to verify public sources but it is not travel or commercial advice."
+      },
+      {
+        "heading": "Limitation of liability",
+        "content": "We are not liable for losses from delayed info or on-site changes; follow on-site and official info."
+      },
+      {
+        "heading": "External links",
+        "content": "Off-site links (maps, official sites) are run by their owners; clicking accepts their terms."
+      }
     ]
   },
   "cookieSettings": {
     "title": "Cookie Settings",
     "description": "We only use necessary Cookies to remember your language and theme preference — no ad tracking.",
-    "essential": { "title": "Essential Cookies", "description": "Remember language and dark-mode basics; cannot be turned off.", "badge": "Always on" },
-    "analytics": { "title": "Anonymous stats", "description": "Optional; helps us know which content is popular, no personal identity." },
-    "marketing": { "title": "Marketing Cookies", "description": "This site does not use marketing Cookies." },
+    "essential": {
+      "title": "Essential Cookies",
+      "description": "Remember language and dark-mode basics; cannot be turned off.",
+      "badge": "Always on"
+    },
+    "analytics": {
+      "title": "Anonymous stats",
+      "description": "Optional; helps us know which content is popular, no personal identity."
+    },
+    "marketing": {
+      "title": "Marketing Cookies",
+      "description": "This site does not use marketing Cookies."
+    },
     "save": "Save settings",
     "saved": "Saved"
   },
@@ -470,10 +770,26 @@
     "amenities": {
       "title": "Quick info",
       "items": [
-        { "icon": "🕗", "label": "Hours", "value": "Daily 18:00–23:00" },
-        { "icon": "💸", "label": "Entry", "value": "Free entry" },
-        { "icon": "🌐", "label": "Languages", "value": "ZH / EN / TH" },
-        { "icon": "💳", "label": "Payment", "value": "Mostly cash, cards at big shops" }
+        {
+          "icon": "🕗",
+          "label": "Hours",
+          "value": "Daily 18:00–23:00"
+        },
+        {
+          "icon": "💸",
+          "label": "Entry",
+          "value": "Free entry"
+        },
+        {
+          "icon": "🌐",
+          "label": "Languages",
+          "value": "ZH / EN / TH"
+        },
+        {
+          "icon": "💳",
+          "label": "Payment",
+          "value": "Mostly cash, cards at big shops"
+        }
       ]
     },
     "categories": [
@@ -481,27 +797,54 @@
         "id": "visit",
         "title": "Visiting",
         "items": [
-          { "q": "What time does it open?", "a": "Stalls open from ~18:00 daily, winding down around 23:00; restaurants and bars may run later." },
-          { "q": "Is there an entry fee?", "a": "Free entry; spending depends on stall prices and bargaining." },
-          { "q": "When is best to browse?", "a": "18:30–21:00 for lights and atmosphere; for fewer crowds come at 18:00 opening or after 21:30." }
+          {
+            "q": "What time does it open?",
+            "a": "Stalls open from ~18:00 daily, winding down around 23:00; restaurants and bars may run later."
+          },
+          {
+            "q": "Is there an entry fee?",
+            "a": "Free entry; spending depends on stall prices and bargaining."
+          },
+          {
+            "q": "When is best to browse?",
+            "a": "18:30–21:00 for lights and atmosphere; for fewer crowds come at 18:00 opening or after 21:30."
+          }
         ]
       },
       {
         "id": "shop",
         "title": "Shopping & food",
         "items": [
-          { "q": "Can I bargain?", "a": "Independent craft and clothing stalls usually negotiate; chains or 'Fixed Price' stores generally don't — ask politely." },
-          { "q": "What to eat?", "a": "Northern BBQ, sausages, mango sticky rice, fresh juice and coconut jelly are worth it; Anusarn has the most choices." },
-          { "q": "Are there genuine crafts?", "a": "Lanna silver, cotton, paper art and aromatherapy often come from family workshops — compare three shops and check the detail." }
+          {
+            "q": "Can I bargain?",
+            "a": "Independent craft and clothing stalls usually negotiate; chains or 'Fixed Price' stores generally don't — ask politely."
+          },
+          {
+            "q": "What to eat?",
+            "a": "Northern BBQ, sausages, mango sticky rice, fresh juice and coconut jelly are worth it; Anusarn has the most choices."
+          },
+          {
+            "q": "Are there genuine crafts?",
+            "a": "Lanna silver, cotton, paper art and aromatherapy often come from family workshops — compare three shops and check the detail."
+          }
         ]
       },
       {
         "id": "transport",
         "title": "Transport",
         "items": [
-          { "q": "How to get from the Old City?", "a": "~20 min walk from Tha Phae Gate, or hail a red Songthaew and say 'Night Bazaar'." },
-          { "q": "Hard to get a ride back?", "a": "Pre-book Grab/Bolt, or walk to the main road for a Songthaew; off-peak in high season." },
-          { "q": "How far from the airport?", "a": "Chiang Mai International Airport is about 15 minutes by car; taxi or ride-hailing both work." }
+          {
+            "q": "How to get from the Old City?",
+            "a": "~20 min walk from Tha Phae Gate, or hail a red Songthaew and say 'Night Bazaar'."
+          },
+          {
+            "q": "Hard to get a ride back?",
+            "a": "Pre-book Grab/Bolt, or walk to the main road for a Songthaew; off-peak in high season."
+          },
+          {
+            "q": "How far from the airport?",
+            "a": "Chiang Mai International Airport is about 15 minutes by car; taxi or ride-hailing both work."
+          }
         ]
       }
     ]
@@ -511,15 +854,36 @@
     "attractionsTitle": "Nearby attractions",
     "toursTitle": "Nearby experiences",
     "attractions": [
-      { "name": "Tha Phae Gate", "url": "https://maps.app.goo.gl/ThaPhaeGate" },
-      { "name": "Mae Ping River", "url": "https://maps.app.goo.gl/MaePingRiver" },
-      { "name": "Kalare Night Bazaar", "url": "https://maps.app.goo.gl/KalareNightBazaar" },
-      { "name": "Chiang Mai Night Safari", "url": "https://maps.app.goo.gl/NightSafariCNX" }
+      {
+        "name": "Tha Phae Gate",
+        "url": "https://maps.app.goo.gl/ThaPhaeGate"
+      },
+      {
+        "name": "Mae Ping River",
+        "url": "https://maps.app.goo.gl/MaePingRiver"
+      },
+      {
+        "name": "Kalare Night Bazaar",
+        "url": "https://maps.app.goo.gl/KalareNightBazaar"
+      },
+      {
+        "name": "Chiang Mai Night Safari",
+        "url": "https://maps.app.goo.gl/NightSafariCNX"
+      }
     ],
     "tours": [
-      { "name": "Old City temples half-day", "url": "https://www.tourismthailand.org" },
-      { "name": "Northern Thai food night", "url": "https://www.tourismthailand.org" },
-      { "name": "Chiang Mai day trip", "url": "https://www.tourismthailand.org" }
+      {
+        "name": "Old City temples half-day",
+        "url": "https://www.tourismthailand.org"
+      },
+      {
+        "name": "Northern Thai food night",
+        "url": "https://www.tourismthailand.org"
+      },
+      {
+        "name": "Chiang Mai day trip",
+        "url": "https://www.tourismthailand.org"
+      }
     ]
   },
   "scienceArt": {
@@ -529,7 +893,11 @@
       "name": "Lanna Crafts",
       "role": "Cultural role",
       "highlight": "Silver, cotton, paper art and umbrella-making are Chiang Mai's proud home crafts.",
-      "points": ["Silver chasing and cotton patterns carry Lanna aesthetics", "Handmade 'Sa' paper from tree-bark fiber", "Umbrella center is the nearby Bo Sang village"],
+      "points": [
+        "Silver chasing and cotton patterns carry Lanna aesthetics",
+        "Handmade 'Sa' paper from tree-bark fiber",
+        "Umbrella center is the nearby Bo Sang village"
+      ],
       "ctaLabel": "Learn Chiang Mai crafts",
       "ctaUrl": "https://www.tourismthailand.org"
     },
@@ -537,7 +905,11 @@
       "name": "Night-market live shows",
       "role": "Nightlife role",
       "highlight": "Stages at Kalare and the bar street connect Thai music with visitors.",
-      "points": ["Traditional and modern Thai music on one stage", "Street performers along the main street", "Special shows during festivals"],
+      "points": [
+        "Traditional and modern Thai music on one stage",
+        "Street performers along the main street",
+        "Special shows during festivals"
+      ],
       "ctaLabel": "See Chiang Mai events",
       "ctaUrl": "https://www.tourismthailand.org"
     }
@@ -552,8 +924,15 @@
         "name": "Main-street lanterns",
         "location": "Changklan North",
         "background": "Blue hour just after lights on — sky and neon in one frame.",
-        "points": ["Best ~30 min after sunset", "Tripod long exposure steadier", "Avoid crowds for clean shots"],
-        "badge": { "value": "Must-shoot", "label": "Signature spot" }
+        "points": [
+          "Best ~30 min after sunset",
+          "Tripod long exposure steadier",
+          "Avoid crowds for clean shots"
+        ],
+        "badge": {
+          "value": "Must-shoot",
+          "label": "Signature spot"
+        }
       },
       {
         "id": "food",
@@ -561,8 +940,15 @@
         "name": "Food-street warmth",
         "location": "Anusarn Market",
         "background": "BBQ and wok steam are the market's warmest theme.",
-        "points": ["Close but don't disturb vendors", "Catch the flip-and-grill moment", "Boost saturation under warm light"],
-        "badge": { "value": "Popular", "label": "Mood spot" }
+        "points": [
+          "Close but don't disturb vendors",
+          "Catch the flip-and-grill moment",
+          "Boost saturation under warm light"
+        ],
+        "badge": {
+          "value": "Popular",
+          "label": "Mood spot"
+        }
       },
       {
         "id": "river",
@@ -570,8 +956,15 @@
         "name": "Mae Ping night",
         "location": "Near river at north mouth",
         "background": "River mirrors the opposite shore's lights — a quiet closing shot.",
-        "points": ["Use railings for framing", "Telephoto to compress lights", "Calmest before closing"],
-        "badge": { "value": "Quiet", "label": "Closing spot" }
+        "points": [
+          "Use railings for framing",
+          "Telephoto to compress lights",
+          "Calmest before closing"
+        ],
+        "badge": {
+          "value": "Quiet",
+          "label": "Closing spot"
+        }
       }
     ]
   },
@@ -579,9 +972,33 @@
     "title": "Why it's worth knowing",
     "subtitle": "The market isn't just shopping — it's a face of Chiang Mai's memory.",
     "points": [
-      { "title": "History in the name", "text": "'Changkhlan' means elephant stake, hiding the old Lanna caravan rest tradition.", "items": ["Name ties to elephants", "Vital Old City southeast road", "Riverside ferry origin"] },
-      { "title": "Craft of communities", "text": "Weaving and crafts brought by Lao and other communities shaped the bazaar's character.", "items": ["Diverse groups together", "Family-workshop heritage", "Handmade culture continues"] },
-      { "title": "Mirror of tourism", "text": "The market's rise and fall reflect Chiang Mai's shift from old city to tourist hub.", "items": ["Stalls to night market", "In travel guides", "Still growing"] }
+      {
+        "title": "History in the name",
+        "text": "'Changkhlan' means elephant stake, hiding the old Lanna caravan rest tradition.",
+        "items": [
+          "Name ties to elephants",
+          "Vital Old City southeast road",
+          "Riverside ferry origin"
+        ]
+      },
+      {
+        "title": "Craft of communities",
+        "text": "Weaving and crafts brought by Lao and other communities shaped the bazaar's character.",
+        "items": [
+          "Diverse groups together",
+          "Family-workshop heritage",
+          "Handmade culture continues"
+        ]
+      },
+      {
+        "title": "Mirror of tourism",
+        "text": "The market's rise and fall reflect Chiang Mai's shift from old city to tourist hub.",
+        "items": [
+          "Stalls to night market",
+          "In travel guides",
+          "Still growing"
+        ]
+      }
     ]
   },
   "plantGuide": {
@@ -591,9 +1008,39 @@
     "seasonTitle": "Three seasons",
     "seasonSubtitle": "Pick the season, stroll easier.",
     "seasons": [
-      { "icon": "❄️", "badge": "Cool", "name": "Cool (Nov–Feb)", "summary": "Most pleasant, cool nights — top choice for market strolls.", "highlights": ["Most comfortable", "Also most crowded", "Festivals dense"] },
-      { "icon": "🔥", "badge": "Hot", "name": "Hot (Mar–May)", "summary": "Still warm at dusk — go after 19:00, drink water.", "highlights": ["Warm at dusk", "Night breeze rises", "Sun care & hydration"] },
-      { "icon": "🌧️", "badge": "Rainy", "name": "Rainy (Jun–Oct)", "summary": "Showers; an umbrella is enough, market cooler after rain.", "highlights": ["Mostly showers", "Cooler after rain", "Fewer crowds"] }
+      {
+        "icon": "❄️",
+        "badge": "Cool",
+        "name": "Cool (Nov–Feb)",
+        "summary": "Most pleasant, cool nights — top choice for market strolls.",
+        "highlights": [
+          "Most comfortable",
+          "Also most crowded",
+          "Festivals dense"
+        ]
+      },
+      {
+        "icon": "🔥",
+        "badge": "Hot",
+        "name": "Hot (Mar–May)",
+        "summary": "Still warm at dusk — go after 19:00, drink water.",
+        "highlights": [
+          "Warm at dusk",
+          "Night breeze rises",
+          "Sun care & hydration"
+        ]
+      },
+      {
+        "icon": "🌧️",
+        "badge": "Rainy",
+        "name": "Rainy (Jun–Oct)",
+        "summary": "Showers; an umbrella is enough, market cooler after rain.",
+        "highlights": [
+          "Mostly showers",
+          "Cooler after rain",
+          "Fewer crowds"
+        ]
+      }
     ]
   },
   "audience": {
@@ -603,10 +1050,30 @@
     "routeLabel": "Suggested line",
     "tipLabel": "Tip",
     "items": [
-      { "icon": "📸", "group": "Photographers", "resonance": "Blue-hour lights and river views", "tip": "Tripod ~30 min after sunset; main street and river both shoot well." },
-      { "icon": "🛍️", "group": "Bargain hunters", "resonance": "Crafts and original design to hunt", "tip": "Main street first, alleys later; compare three then bargain." },
-      { "icon": "🍜", "group": "Food travelers", "resonance": "Street eats and northern BBQ", "tip": "Anusarn has the most choices; taste before you buy." },
-      { "icon": "👨‍👩‍👧", "group": "Families", "resonance": "Free, easy, food and sights", "tip": "Avoid peaks, take breaks, watch the little ones." }
+      {
+        "icon": "📸",
+        "group": "Photographers",
+        "resonance": "Blue-hour lights and river views",
+        "tip": "Tripod ~30 min after sunset; main street and river both shoot well."
+      },
+      {
+        "icon": "🛍️",
+        "group": "Bargain hunters",
+        "resonance": "Crafts and original design to hunt",
+        "tip": "Main street first, alleys later; compare three then bargain."
+      },
+      {
+        "icon": "🍜",
+        "group": "Food travelers",
+        "resonance": "Street eats and northern BBQ",
+        "tip": "Anusarn has the most choices; taste before you buy."
+      },
+      {
+        "icon": "👨‍👩‍👧",
+        "group": "Families",
+        "resonance": "Free, easy, food and sights",
+        "tip": "Avoid peaks, take breaks, watch the little ones."
+      }
     ]
   },
   "lodging": {
@@ -614,21 +1081,73 @@
     "subtitle": "Want to wake up at the market mouth? These spots are smoothest.",
     "scenarioTitle": "Pick lodging by need",
     "options": [
-      { "icon": "🌃", "name": "Hotels along the market", "role": "Steps away", "highlight": "Downstairs is the market — least walking.", "commute": "Walk 1–5 min", "points": ["Market-mouth first pick", "Easiest return", "Pricier"] },
-      { "icon": "🏯", "name": "Old City hostels", "role": "Culture + convenience", "highlight": "Old City by day, walk or ride to market at dusk.", "commute": "Walk 15–20 min / Songthaew 5 min", "points": ["Near Tha Phae Gate", "Many dining options", "Quieter nightlife"] },
-      { "icon": "✈️", "name": "Airport / Nimman area", "role": "Shopping & transit hub", "highlight": "Nimman has hip shops; airport commute easy.", "commute": "Ride-hailing 15–20 min", "points": ["Hip cafes & shops", "Handy to airport", "A bit far from market"] }
+      {
+        "icon": "🌃",
+        "name": "Hotels along the market",
+        "role": "Steps away",
+        "highlight": "Downstairs is the market — least walking.",
+        "commute": "Walk 1–5 min",
+        "points": [
+          "Market-mouth first pick",
+          "Easiest return",
+          "Pricier"
+        ]
+      },
+      {
+        "icon": "🏯",
+        "name": "Old City hostels",
+        "role": "Culture + convenience",
+        "highlight": "Old City by day, walk or ride to market at dusk.",
+        "commute": "Walk 15–20 min / Songthaew 5 min",
+        "points": [
+          "Near Tha Phae Gate",
+          "Many dining options",
+          "Quieter nightlife"
+        ]
+      },
+      {
+        "icon": "✈️",
+        "name": "Airport / Nimman area",
+        "role": "Shopping & transit hub",
+        "highlight": "Nimman has hip shops; airport commute easy.",
+        "commute": "Ride-hailing 15–20 min",
+        "points": [
+          "Hip cafes & shops",
+          "Handy to airport",
+          "A bit far from market"
+        ]
+      }
     ],
     "peakTitle": "High-season note",
     "peak": "Cool season (Dec–Jan) and around Songkran the market is busiest — book market-side hotels early.",
     "tipsTitle": "Lodging tips",
-    "tips": ["For quiet, pick north-mouth or alley hotels", "With luggage, prefer ride-hailing", "Confirm breakfast and transfer"]
+    "tips": [
+      "For quiet, pick north-mouth or alley hotels",
+      "With luggage, prefer ride-hailing",
+      "Confirm breakfast and transfer"
+    ]
   },
   "downloads": {
     "title": "Useful downloads",
     "items": [
-      { "icon": "🗺️", "name": "Night Bazaar quick card", "desc": "Location, hours and zones at a glance.", "url": "#" },
-      { "icon": "🛍️", "name": "Bargain & hunt checklist", "desc": "Common crafts and pitfall notes.", "url": "#" },
-      { "icon": "🍜", "name": "Market food map", "desc": "Must-try snacks and stall types.", "url": "#" }
+      {
+        "icon": "🗺️",
+        "name": "Night Bazaar quick card",
+        "desc": "Location, hours and zones at a glance.",
+        "url": "#"
+      },
+      {
+        "icon": "🛍️",
+        "name": "Bargain & hunt checklist",
+        "desc": "Common crafts and pitfall notes.",
+        "url": "#"
+      },
+      {
+        "icon": "🍜",
+        "name": "Market food map",
+        "desc": "Must-try snacks and stall types.",
+        "url": "#"
+      }
     ]
   }
 }
