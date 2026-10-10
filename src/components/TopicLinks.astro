@@ -1,0 +1,35 @@
+---
+import { getI18n } from '../i18n/ui';
+import { topics, topicSlugs } from '../i18n/topics';
+
+const { lang } = getI18n(Astro.url);
+const headingMap: Record<string, string> = {
+  en: 'More Night Bazaar guides',
+  th: 'คู่มือไนท์บาซาร์เพิ่มเติม',
+  zh: '更多夜市攻略',
+};
+const heading = headingMap[lang] || headingMap.en;
+const items = topicSlugs.map((t) => ({
+  slug: t,
+  h1: topics[t][lang].h1,
+  desc: topics[t][lang].description,
+}));
+---
+
+<section class="section-padding">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-2xl sm:text-3xl font-display font-bold" style="color: var(--text-primary);">{heading}</h2>
+    <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {items.map((it) => (
+        <a
+          href={`/${lang}/${it.slug}/`}
+          class="block rounded-lg p-5 transition hover:opacity-90"
+          style="background: var(--bg-secondary); border: 1px solid var(--border-color);"
+        >
+          <h3 class="font-display font-semibold text-lg" style="color: var(--text-primary);">{it.h1}</h3>
+          <p class="mt-2 text-sm leading-relaxed" style="color: var(--text-secondary);">{it.desc}</p>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>

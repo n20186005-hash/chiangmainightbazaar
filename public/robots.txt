@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+Disallow: /th/cookie-settings/
+Disallow: /en/cookie-settings/
+Disallow: /zh/cookie-settings/
+Disallow: /th/privacy-policy/
+Disallow: /en/privacy-policy/
+Disallow: /zh/privacy-policy/
+Disallow: /th/terms-of-service/
+Disallow: /en/terms-of-service/
+Disallow: /zh/terms-of-service/
+
+Sitemap: https://chiangmainightbazaar.com/sitemap.xml

@@ -244,8 +244,12 @@ const planner = h.sunsetPlanner ?? {};
       }
 
       function setFallback() {
-        weatherEl.textContent = '—';
-        sunsetEl.textContent = '—';
+        var lang = (document.documentElement.getAttribute('lang') || '').toLowerCase();
+        var msg = '实时天气暂不可用';
+        if (lang.indexOf('en') === 0) msg = 'Live weather unavailable';
+        else if (lang.indexOf('th') === 0) msg = 'ข้อมูลอากาศไม่พร้อม';
+        weatherEl.textContent = msg;
+        sunsetEl.textContent = msg;
         setPlannerFallback();
       }
 

@@ -1,0 +1,85 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getI18n } from '../i18n/ui';
+import { topics, topicSlugs, type TopicSlug } from '../i18n/topics';
+
+interface Props {
+  lang: string;
+  topic: TopicSlug;
+}
+
+const { lang, topic } = Astro.props;
+const { messages } = getI18n(Astro.url);
+const content = topics[topic][lang];
+const bc = messages.breadcrumb;
+
+const faqLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: content.faq.map((f) => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+};
+
+const related = topicSlugs.filter((s) => s !== topic);
+---
+
+<BaseLayout title={content.title} description={content.description} path={topic}>
+  <main class="max-w-4xl mx-auto px-4 py-8">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <div class="max-w-6xl mx-auto px-4">
+        <ol class="breadcrumb-list" itemscope itemtype="https://schema.org/BreadcrumbList">
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href={`/${lang}/`} itemprop="item"><span itemprop="name">{bc.home}</span></a>
+            <meta itemprop="position" content="1" />
+          </li>
+          <li class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name">{content.h1}</span>
+            <meta itemprop="position" content="2" />
+          </li>
+        </ol>
+      </div>
+    </nav>
+
+    <article class="mt-6">
+      <h1 class="text-3xl sm:text-4xl font-display font-bold leading-tight" style="color: var(--text-primary);">{content.h1}</h1>
+      <p class="mt-4 text-lg leading-relaxed" style="color: var(--text-secondary);">{content.intro}</p>
+      <p class="mt-3 text-sm" style="color: var(--text-tertiary);">{content.updated}</p>
+
+      <div class="mt-8 space-y-8">
+        {content.sections.map((s) => (
+          <section>
+            <h2 class="text-xl sm:text-2xl font-display font-semibold" style="color: var(--text-primary);">{s.heading}</h2>
+            <p class="mt-2 leading-relaxed" style="color: var(--text-secondary);">{s.body}</p>
+          </section>
+        ))}
+      </div>
+
+      <section class="mt-10">
+        <h2 class="text-xl sm:text-2xl font-display font-semibold" style="color: var(--text-primary);">{messages.faq.title}</h2>
+        <div class="mt-4 space-y-3">
+          {content.faq.map((f) => (
+            <details class="rounded-lg border p-4" style="border-color: var(--border-color); background: var(--bg-secondary);" open>
+              <summary class="cursor-pointer font-medium" style="color: var(--text-primary);">{f.q}</summary>
+              <p class="mt-2 leading-relaxed" style="color: var(--text-secondary);">{f.a}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+
+      <section class="mt-10 rounded-lg p-5" style="background: var(--bg-tertiary); border: 1px solid var(--border-color);">
+        <h2 class="text-lg font-display font-semibold" style="color: var(--text-primary);">{content.relatedLabel}</h2>
+        <ul class="mt-3 grid sm:grid-cols-2 gap-2 list-disc pl-5" style="color: var(--text-secondary);">
+          {related.map((r) => (
+            <li><a class="underline hover:opacity-70" href={`/${lang}/${r}/`}>{topics[r][lang].h1}</a></li>
+          ))}
+        </ul>
+        <p class="mt-4"><a class="underline hover:opacity-70" href={`/${lang}/`}>{bc.home} →</a></p>
+      </section>
+    </article>
+  </main>
+
+  <script type="application/ld+json" set:html={JSON.stringify(faqLd)}></script>
+</BaseLayout>

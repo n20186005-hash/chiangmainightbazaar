@@ -1,0 +1,19 @@
+---
+import { languagesList } from '../../i18n/ui';
+import { topicSlugs } from '../../i18n/topics';
+import TopicPage from '../../components/TopicPage.astro';
+
+export function getStaticPaths() {
+  const paths = [];
+  for (const lang of languagesList) {
+    for (const topic of topicSlugs) {
+      paths.push({ params: { lang, topic } });
+    }
+  }
+  return paths;
+}
+
+const { lang, topic } = Astro.params;
+---
+
+<TopicPage lang={lang} topic={topic} />

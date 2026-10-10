@@ -1,1 +1,11 @@
-/  /th/  302
+# Canonical URL normalization (per SEO audit 2026-10-10)
+# Preferred host: non-www. Force www -> apex.
+https://www.chiangmainightbazaar.com/* https://chiangmainightbazaar.com/:splat 301
+
+# Root -> default Thai homepage (permanent)
+/ /th/ 301
+
+# Strip trailing-slash-less variants -> canonical with trailing slash
+/th /th/ 301
+/en /en/ 301
+/zh /zh/ 301

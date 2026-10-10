@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Night Bazaar Chiang Mai (ไนท์บาซาร์เชียงใหม่) | Chiang Mai, Thailand | The city's largest night market & craft landmark by the Mae Ping River",
-    "description": "The complete guide to Night Bazaar Chiang Mai: along Changklan Road on the east bank of the Mae Ping River, it is one of northern Thailand's biggest and most iconic night markets. Handicrafts, original design, street food and live music come together here, open daily from 18:00, free entry — your gateway to Chiang Mai after dark."
+    "title": "Chiang Mai Night Bazaar | Hours, Food & Visitor Guide",
+    "description": "Explore Chiang Mai Night Bazaar on Changklan Road. Find opening hours, directions, street food, shopping areas, nearby markets and tips for your visit."
   },
   "header": {
     "siteName": "Night Bazaar Chiang Mai",
@@ -45,9 +45,9 @@
   },
   "hero": {
     "title": "Night Bazaar Chiang Mai",
-    "subtitle": "ไนท์บาซาร์เชียงใหม่ · 清迈夜市 —— Chiang Mai's liveliest night promenade by the Mae Ping, where northern Thai crafts and street food meet.",
+    "subtitle": "ไนท์บาซาร์เชียงใหม่ · 清迈夜市 —— Chiang Mai's liveliest night promenade, where northern Thai crafts and street food meet.",
     "rating": "4.3",
-    "reviewCount": "27,024",
+    "reviewCount": "27,491",
     "hours": "Daily 18:00–23:00",
     "openMaps": "View location on Google Maps",
     "mapsUrl": "https://maps.app.goo.gl/CgkAU1Y8EnZAPQxe8",
@@ -94,7 +94,7 @@
       {
         "icon": "🌉",
         "label": "Where",
-        "value": "Changklan Rd · east bank of Mae Ping"
+        "value": "Changklan Rd, southeast of Old City"
       }
     ],
     "navCta": {
@@ -134,13 +134,13 @@
         "icon": "📍",
         "label": "Area",
         "value": "Chiang Mai · Changklan Rd",
-        "note": "East bank of the Mae Ping, southeast of the Old City, ~1.5 km south of Tha Phae Gate."
+        "note": "Southeast of the Old City, ~1.5 km south of Tha Phae Gate."
       },
       {
         "icon": "🕗",
         "label": "Hours",
         "value": "Daily 18:00–23:00",
-        "note": "Some restaurants and bars run later; busier in high season."
+        "note": "Some restaurants and bars run later; busier in high season. (Hours verified October 2026.)"
       },
       {
         "icon": "💸",
@@ -292,7 +292,7 @@
   },
   "intro": {
     "title": "Meet Night Bazaar Chiang Mai",
-    "description": "Night Bazaar Chiang Mai is one of northern Thailand's most representative night markets, spreading along Changklan Road on the east bank of the Mae Ping River. It packs Lanna handicrafts, original design, street food and live performance into one promenade: a normal street by day, it transforms after dark into a glowing night-life landmark. Free entry, open daily — the easiest and most memorable entry to Chiang Mai after dark.",
+    "description": "Night Bazaar Chiang Mai is one of northern Thailand's most representative night markets, spreading along Changklan Road, southeast of Chiang Mai's Old City. It packs Lanna handicrafts, original design, street food and live performance into one promenade: a normal street by day, it transforms after dark into a glowing night-life landmark. Free entry, open daily — the easiest and most memorable entry to Chiang Mai after dark.",
     "visitGuide": {
       "title": "How to get the most out of it",
       "eyebrow": "Night-out tips",
@@ -325,7 +325,7 @@
     "title": "How to get to Night Bazaar Chiang Mai",
     "subtitle": "The easiest ways from around the Old City — pick what fits.",
     "overviewTitle": "Location overview",
-    "overviewText": "The market sits on Changklan Road, ~1.5 km south of Tha Phae Gate in southeast Chiang Mai, along the east bank of the Mae Ping. About a 20-minute walk from the Old City, or a few minutes by Songthaew.",
+    "overviewText": "The market sits on Changklan Road, ~1.5 km south of Tha Phae Gate in southeast Chiang Mai. About a 20-minute walk from the Old City, or a few minutes by Songthaew.",
     "overviewText2": "Chiang Mai International Airport (CNX) is about 15 minutes away by car; most hotels and hostels offer transfers or ride-hailing.",
     "arrivalTitle": "Common ways to arrive",
     "arrivalItems": [
@@ -664,7 +664,7 @@
   },
   "mapSection": {
     "title": "Map & location",
-    "subtitle": "Night Bazaar Chiang Mai is on Changklan Road, east bank of the Mae Ping, southeast of the Old City.",
+    "subtitle": "Night Bazaar Chiang Mai is on Changklan Road, southeast of the Old City.",
     "openMaps": "View location on Google Maps",
     "mapsUrl": "https://maps.app.goo.gl/CgkAU1Y8EnZAPQxe8"
   },

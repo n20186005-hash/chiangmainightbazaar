@@ -5,6 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   site: 'https://chiangmainightbazaar.com',
   output: 'static',
+  trailingSlash: 'always',
   i18n: {
     defaultLocale: 'th',
     locales: ['th', 'zh', 'en'],

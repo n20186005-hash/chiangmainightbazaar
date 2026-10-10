@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "清迈夜市（Night Bazaar Chiang Mai · ไนท์บาซาร์เชียงใหม่）| 泰国清迈·美宾河（Ping River / 平河）畔最大的夜市与手工艺地标",
-    "description": "清迈夜市（Night Bazaar Chiang Mai）完全指南：坐落于泰国清迈府昌堪路（Changklan Road），紧邻美宾河（Ping River / 平河）东岸，是泰国北部规模最大、最具代表性的夜市之一。这里汇集泰北手工艺、原创设计、街头美食与现场表演，每日 18:00 起开市，免费入场，是认识清迈夜生活的城市名片。"
+    "title": "清迈夜市攻略2026｜长康路夜市营业时间、美食与交通",
+    "description": "清迈夜市（Chiang Mai Night Bazaar）旅游指南：了解长康路夜市的营业时间、交通方式、美食、购物推荐和周边景点，规划清迈夜间行程。"
   },
   "header": {
     "siteName": "清迈夜市",
@@ -45,9 +45,9 @@
   },
   "hero": {
     "title": "清迈夜市",
-    "subtitle": "Night Bazaar Chiang Mai · ไนท์บาซาร์เชียงใหม่ —— 美宾河（Ping River / 平河）畔最热闹的夜游长廊，泰北手工艺与街头美食的集结地。",
+    "subtitle": "Night Bazaar Chiang Mai · ไนท์บาซาร์เชียงใหม่ —— 最热闹的夜游长廊，泰北手工艺与街头美食的集结地。",
     "rating": "4.3",
-    "reviewCount": "27,024",
+    "reviewCount": "27,491",
     "hours": "每日 18:00–23:00",
     "openMaps": "在 Google 地图上查看位置",
     "mapsUrl": "https://maps.app.goo.gl/CgkAU1Y8EnZAPQxe8",
@@ -94,7 +94,7 @@
       {
         "icon": "🌉",
         "label": "位置 / Where",
-        "value": "昌堪路 · 美宾河（Ping River / 平河）东岸"
+        "value": "昌堪路（Changklan），古城东南"
       }
     ],
     "navCta": {
@@ -134,13 +134,13 @@
         "icon": "📍",
         "label": "所在地区",
         "value": "清迈府 · 昌堪路（Changklan）",
-        "note": "位于美宾河（Ping River / 平河）东岸，古城东南、塔佩门以南约 1.5 公里。"
+        "note": "位于古城东南、塔佩门以南约 1.5 公里。"
       },
       {
         "icon": "🕗",
         "label": "开市时间",
         "value": "每日 18:00–23:00",
-        "note": "部分餐厅与酒吧会延续到更晚；旺季人潮更密集。"
+        "note": "部分餐厅与酒吧会延续到更晚；旺季人潮更密集。（营业时间已于 2026 年 10 月核对）"
       },
       {
         "icon": "💸",
@@ -292,7 +292,7 @@
   },
   "intro": {
     "title": "认识清迈夜市",
-    "description": "清迈夜市（Night Bazaar Chiang Mai）是泰国北部最具历史底蕴的综合性夜间商贸长廊。它沿昌堪路（Changklan Rd）铺开，平行于美宾河（Ping River）东岸。这里在白天是车水马龙的商业次干道，入夜后则化身为汇聚泰北兰纳手作、多元族群美食与街头艺术的露天博物馆。作为清迈现代旅游业的起点，它不仅是一个购物场所，更是一面折射泰北工商业百年变迁的镜子。",
+    "description": "清迈夜市（Night Bazaar Chiang Mai）是泰国北部最具历史底蕴的综合性夜间商贸长廊。它沿古城东南的昌堪路（Changklan Rd）铺开。这里在白天是车水马龙的商业次干道，入夜后则化身为汇聚泰北兰纳手作、多元族群美食与街头艺术的露天博物馆。作为清迈现代旅游业的起点，它不仅是一个购物场所，更是一面折射泰北工商业百年变迁的镜子。",
     "visitGuide": {
       "title": "怎么逛最值",
       "eyebrow": "夜游攻略",
@@ -325,7 +325,7 @@
     "title": "怎么到达清迈夜市",
     "subtitle": "古城周边最方便的几种方式，按需选择。",
     "overviewTitle": "位置概览",
-    "overviewText": "夜市位于清迈古城东南、塔佩门以南约 1.5 公里的昌堪路（Changklan Road），沿美宾河（Ping River / 平河）东岸铺开。从古城步行约 20 分钟，或乘双条车几分钟即达。",
+    "overviewText": "夜市位于清迈古城东南、塔佩门以南约 1.5 公里的昌堪路（Changklan Road）沿线。从古城步行约 20 分钟，或乘双条车几分钟即达。",
     "overviewText2": "清迈国际机场（CNX）距夜市约 15 分钟车程，多数酒店与旅舍都提供接送或叫车服务。",
     "arrivalTitle": "常用到达方式",
     "arrivalItems": [
@@ -342,7 +342,7 @@
         "description": "塔佩门出发沿主路南行，沿途有商店与河景，约 20 分钟。",
         "details": [
           "从塔佩门向东南直行",
-          "沿美宾河（Ping River / 平河）东岸人行道",
+          "沿人行道南行",
           "夜市北口即到"
         ],
         "steps": [
@@ -664,7 +664,7 @@
   },
   "mapSection": {
     "title": "地图与位置",
-    "subtitle": "清迈夜市位于昌堪路，紧邻美宾河（Ping River / 平河）东岸，古城东南方向。",
+    "subtitle": "清迈夜市位于昌堪路（Changklan Road）沿线，古城东南方向。",
     "openMaps": "在 Google 地图上查看位置",
     "mapsUrl": "https://maps.app.goo.gl/CgkAU1Y8EnZAPQxe8"
   },
