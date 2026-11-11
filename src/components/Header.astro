@@ -9,6 +9,7 @@ const currentPath = Astro.url.pathname;
 // keep the same page route (e.g. /es/privacy-policy) when switching language
 const pageSeg = Astro.url.pathname.split('/').filter(Boolean).slice(1).join('/');
 const switchTo = (l: string) => (pageSeg ? `/${l}/${pageSeg}` : `/${l}`);
+const mobileMenuLabel = lang === 'th' ? 'เปิดหรือปิดเมนู' : lang === 'zh' ? '展开或收起菜单' : 'Toggle menu';
 ---
 
 <header class="sticky top-0 z-50 backdrop-blur" style="background: color-mix(in srgb, var(--bg-primary) 85%, transparent); border-bottom: 1px solid var(--border-color);">
@@ -28,7 +29,7 @@ const switchTo = (l: string) => (pageSeg ? `/${l}/${pageSeg}` : `/${l}`);
     </nav>
 
     <div class="flex items-center gap-2 sm:gap-3">
-      <button type="button" id="mobile-menu-toggle" class="md:hidden w-9 h-9 rounded-lg border flex items-center justify-center text-lg" style="border-color: var(--border-color); color: var(--text-primary);" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+      <button type="button" id="mobile-menu-toggle" class="md:hidden w-9 h-9 rounded-lg border flex items-center justify-center text-lg" style="border-color: var(--border-color); color: var(--text-primary);" aria-label={mobileMenuLabel} aria-expanded="false" aria-controls="mobile-menu">
         ☰
       </button>
 
