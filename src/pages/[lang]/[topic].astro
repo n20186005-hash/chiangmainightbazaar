@@ -2,11 +2,13 @@
 import { languagesList } from '../../i18n/ui';
 import { topicSlugs } from '../../i18n/topics';
 import TopicPage from '../../components/TopicPage.astro';
+import ExtendedGuidePage from '../../components/ExtendedGuidePage.astro';
+import { extendedGuideSlugs } from '../../i18n/extendedGuides';
 
 export function getStaticPaths() {
-  const paths = [];
+  const paths: { params: { lang: string; topic: string } }[] = [];
   for (const lang of languagesList) {
-    for (const topic of topicSlugs) {
+    for (const topic of [...topicSlugs, ...extendedGuideSlugs]) {
       paths.push({ params: { lang, topic } });
     }
   }
@@ -16,4 +18,4 @@ export function getStaticPaths() {
 const { lang, topic } = Astro.params;
 ---
 
-<TopicPage lang={lang} topic={topic} />
+{topicSlugs.includes(topic as any) ? <TopicPage lang={lang} topic={topic as any} /> : <ExtendedGuidePage lang={lang} slug={topic} />}

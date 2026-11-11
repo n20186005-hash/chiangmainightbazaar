@@ -1,0 +1,21 @@
+---
+import { getI18n } from '../i18n/ui';
+import { extendedGuide } from '../i18n/extendedGuides';
+const {lang}=getI18n(Astro.url);
+const highlights=['anusarn-market','kalare-market','tha-phae-gate','warorot-market','iron-bridge','nawarat-bridge','wat-buppharam','wat-ket-area','sunday-walking-street','saturday-walking-street','chiang-mai-gate-market','ping-river-walk'];
+const t=lang==='th'?{title:'เที่ยวต่อรอบไนท์บาซาร์เชียงใหม่',intro:'เดินจากย่านช้างคลานไปตลาดอาหาร ประตูเมือง วัด และแม่น้ำปิง เลือกแต่ละสถานที่เพื่ออ่านประวัติ จุดชม และเส้นทางพร้อมแผนที่เฉพาะจุด',open:'ดูคู่มือสถานที่'}:lang==='zh'?{title:'清迈夜市周边游览',intro:'从昌堪路延伸至美食市场、古城门、寺院和平河。每个地点都有独立介绍、步行建议及专属地图搜索。',open:'查看景点攻略'}:{title:'Explore around Chiang Mai Night Bazaar',intro:'Go beyond Chang Khlan to food markets, historic gates, temples and the Ping River. Each stop has its own background, route notes and location search.',open:'Explore this place'};
+---
+<section class="section-padding" id="nearby-highlights">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-2xl sm:text-3xl font-display font-bold" style="color:var(--text-primary)">{t.title}</h2>
+    <p class="mt-3 max-w-3xl leading-relaxed" style="color:var(--text-secondary)">{t.intro}</p>
+    <div class="mt-7 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {highlights.map(slug=>{const guide=extendedGuide(slug,lang)!;return (
+        <a href={`/${lang}/${slug}/`} class="block rounded-xl overflow-hidden transition hover:opacity-90" style="border:1px solid var(--border-color);background:var(--bg-secondary)">
+          <img src={guide.photo} alt={guide.photoCaption} width="640" height="360" loading="lazy" decoding="async" class="w-full h-40 object-cover" />
+          <div class="p-4"><h3 class="font-display font-semibold text-lg">{guide.name}</h3><p class="mt-2 text-sm leading-relaxed" style="color:var(--text-secondary)">{guide.description}</p><p class="mt-3 text-sm font-semibold underline">{t.open} →</p></div>
+        </a>
+      )})}
+    </div>
+  </div>
+</section>

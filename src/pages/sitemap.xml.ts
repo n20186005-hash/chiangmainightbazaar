@@ -2,6 +2,7 @@ import type { APIRoute } from 'astro';
 import { siteConfig } from '../config';
 import { languagesList } from '../i18n/ui';
 import { topicSlugs } from '../i18n/topics';
+import { extendedGuideSlugs } from '../i18n/extendedGuides';
 
 function hreflangCode(l: string): string {
   if (l === 'th') return 'th-TH';
@@ -20,7 +21,7 @@ export const GET: APIRoute = () => {
   }));
 
   const topicEntries: { url: string; alts: { lang: string; url: string }[] }[] = [];
-  for (const t of topicSlugs) {
+  for (const t of [...topicSlugs, ...extendedGuideSlugs]) {
     for (const l of languagesList) {
       topicEntries.push({
         url: topicUrl(l, t),
@@ -43,7 +44,7 @@ ${e.alts
       `    <xhtml:link rel="alternate" hreflang="${a.lang}" href="${a.url}" />`
   )
   .join('\n')}
-    <xhtml:link rel="alternate" hreflang="x-default" href="${home('th')}" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="${e.alts.find((a) => a.lang === 'th-TH')?.url ?? home('th')}" />
   </url>`
   )
   .join('\n')}

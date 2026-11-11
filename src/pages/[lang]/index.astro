@@ -20,6 +20,7 @@ import DeepDive from '../../components/DeepDive.astro';
 import Downloads from '../../components/Downloads.astro';
 import FAQ from '../../components/FAQ.astro';
 import TopicLinks from '../../components/TopicLinks.astro';
+import NearbyHighlights from '../../components/NearbyHighlights.astro';
 import { getI18n, languagesList } from '../../i18n/ui';
 
 export function getStaticPaths() {
@@ -59,6 +60,7 @@ const faqLd = (() => {
   <HiddenRules />
   <ComplianceGuide />
   <Lodging />
+  <NearbyHighlights />
   <TopicLinks />
   <MapEmbed />
   <Downloads />

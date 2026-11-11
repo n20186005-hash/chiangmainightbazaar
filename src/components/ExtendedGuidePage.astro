@@ -1,0 +1,59 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { extendedGuide, extendedGuideSlugs } from '../i18n/extendedGuides';
+import { siteConfig } from '../config';
+import { managementForGuide } from '../i18n/guideManagement';
+
+const {lang,slug} = Astro.props;
+const guide = extendedGuide(slug,lang)!;
+const faqLd = { '@context':'https://schema.org', '@type':'FAQPage', mainEntity: guide.faq.map((f)=>({'@type':'Question',name:f.q,acceptedAnswer:{'@type':'Answer',text:f.a}})) };
+const articleLd = { '@context':'https://schema.org', '@type':'Article', headline:guide.name, description:guide.description, image:`${siteConfig.baseUrl}${guide.photo}`, inLanguage:lang, mainEntityOfPage:`${siteConfig.baseUrl}/${lang}/${slug}/`, about:{'@type':'Place',name:guide.name,url:guide.mapUrl} };
+const local = lang==='th' ? {
+ subtitle:'เชียงใหม่ · เรื่องราว สถานที่ และแผนเที่ยวที่ใช้ได้จริง',discover:'สำรวจ',about:'เกี่ยวกับ',facts:'ข้อมูลพื้นฐาน',place:'จุดหมาย',region:'เมืองและประเทศ',type:'ลักษณะการเที่ยว',zone:'เชียงใหม่ ประเทศไทย',focus:'สถานที่หรือหัวข้อในแผนเที่ยวไนท์บาซาร์',route:'แผนเดินเที่ยวแบบเป็นขั้นตอน',photo:'มุมถ่ายภาพและสิ่งที่ควรสังเกต',tips:'เคล็ดลับการเดินเที่ยว',guide:'ตรวจสอบจุดหมายก่อนออกเดิน',time:'เวลา',timeInfo:'เลือกช่วงเวลาตามประเภทสถานที่และตรวจสอบข้อมูลล่าสุด',maps:'แผนที่และการเดินทาง',nearby:'สถานที่และคู่มือเที่ยวต่อเนื่อง'
+} : lang==='zh' ? {
+ subtitle:'清迈 · 历史背景、现场看点与实用路线',discover:'探索',about:'关于',facts:'基本资料',place:'目的地',region:'城市与国家',type:'游览性质',zone:'清迈，泰国',focus:'清迈夜市周边地点或专题攻略',route:'分步游览路线',photo:'拍照机位与观察重点',tips:'游览须知',guide:'出发前核对实际位置',time:'建议时间',timeInfo:'按景点性质安排，并在出发前查看最新信息',maps:'位置与交通查询',nearby:'继续游览附近地点'
+} : {
+ subtitle:'Chiang Mai · Heritage, local character and practical routes',discover:'Discover',about:'About',facts:'Essential information',place:'Destination',region:'City and country',type:'Experience type',zone:'Chiang Mai, Thailand',focus:'Night Bazaar area stop or thematic visitor guide',route:'Step-by-step suggested route',photo:'Photo viewpoints and things to notice',tips:'Visitor tips',guide:'Check the specific destination before leaving',time:'Suggested timing',timeInfo:'Plan by the type of stop and check current conditions',maps:'Location and transport search',nearby:'Continue exploring nearby'
+};
+const management = managementForGuide(slug,lang);
+---
+<BaseLayout title={guide.title} description={guide.description} path={slug}>
+  <article class="max-w-4xl mx-auto px-4 py-10">
+    <nav class="text-sm mb-7" aria-label="Breadcrumb"><a class="underline" href={`/${lang}/`}>{guide.t.home}</a> / {guide.name}</nav>
+    <header>
+      <h1 class="text-3xl sm:text-4xl font-display font-bold" style="color:var(--text-primary)">{guide.name}</h1>
+      <p class="mt-3 text-sm font-medium tracking-wide" style="color:var(--text-tertiary)">{local.subtitle}</p>
+      <p class="text-lg mt-5 leading-relaxed" style="color:var(--text-secondary)">{guide.description}</p>
+      <p class="mt-4"><a href={guide.mapUrl} class="inline-block rounded-lg px-5 py-3 font-semibold" style="background:var(--bg-tertiary);border:1px solid var(--border-color)" target="_blank" rel="noopener noreferrer">{guide.t.map} ↗</a></p>
+    </header>
+    <figure class="mt-7">
+      <img src={guide.photo} alt={guide.photoCaption} width="960" height="640" loading="lazy" decoding="async" class="w-full max-h-[470px] object-cover rounded-xl" />
+      <figcaption class="text-sm mt-2" style="color:var(--text-tertiary)">{guide.photoCaption}</figcaption>
+    </figure>
+    <section class="mt-9 rounded-xl p-6" style="background:var(--bg-secondary);border:1px solid var(--border-color)">
+      <h2 class="text-2xl font-display font-bold">{local.about} {guide.isPlace ? guide.name : (lang==='th'?'ไนท์บาซาร์เชียงใหม่':lang==='zh'?'清迈夜市':'Chiang Mai Night Bazaar')}</h2>
+      <p class="mt-4 leading-8" style="color:var(--text-secondary)">{management}</p>
+      <p class="mt-3 leading-8" style="color:var(--text-secondary)">{guide.sections[0].body}</p>
+    </section>
+    <section class="mt-9">
+      <h2 class="text-2xl font-semibold">{local.facts}</h2>
+      <dl class="mt-4 rounded-xl overflow-hidden" style="border:1px solid var(--border-color)">
+        <div class="grid sm:grid-cols-3 p-4 gap-2" style="background:var(--bg-secondary)"><dt class="font-semibold">{local.place}</dt><dd class="sm:col-span-2">{guide.name}</dd></div>
+        <div class="grid sm:grid-cols-3 p-4 gap-2" style="border-top:1px solid var(--border-color)"><dt class="font-semibold">{local.region}</dt><dd class="sm:col-span-2">{local.zone}</dd></div>
+        <div class="grid sm:grid-cols-3 p-4 gap-2" style="border-top:1px solid var(--border-color);background:var(--bg-secondary)"><dt class="font-semibold">{local.type}</dt><dd class="sm:col-span-2">{guide.kind}</dd></div>
+        <div class="grid sm:grid-cols-3 p-4 gap-2" style="border-top:1px solid var(--border-color)"><dt class="font-semibold">{local.time}</dt><dd class="sm:col-span-2">{local.timeInfo}</dd></div>
+      </dl>
+    </section>
+    <section class="mt-9 rounded-xl p-5" style="background:var(--bg-secondary);border:1px solid var(--border-color)">
+      <h2 class="text-xl font-bold">{local.maps}</h2>
+      <p class="mt-3"><a class="underline" href={guide.mapUrl} target="_blank" rel="noopener noreferrer">{guide.t.map} — {guide.name} ↗</a></p>
+    </section>
+    <section class="mt-10"><h2 class="text-2xl font-semibold">{local.route}</h2><ol class="space-y-4 mt-5">{[guide.sections[1].body,guide.sections[3].body,guide.sections[4].body].map((step,i)=>(<li class="flex gap-4"><span class="flex-shrink-0 rounded-full w-9 h-9 grid place-items-center font-semibold" style="background:var(--bg-tertiary)">{i+1}</span><p class="leading-8" style="color:var(--text-secondary)">{step}</p></li>))}</ol></section>
+    <section class="mt-10"><h2 class="text-2xl font-semibold">{local.photo}</h2><p class="mt-3 leading-8" style="color:var(--text-secondary)">{guide.sections[2].body}</p></section>
+    <section class="mt-10"><h2 class="text-2xl font-semibold">{local.tips}</h2><p class="mt-3 leading-8" style="color:var(--text-secondary)">{guide.sections[4].body}</p></section>
+    <section class="mt-10"><h2 class="text-2xl font-semibold">{guide.t.questions}</h2><div class="space-y-3 mt-4">{guide.faq.map((f)=>(<details class="rounded-lg p-4" style="border:1px solid var(--border-color);background:var(--bg-secondary)"><summary class="cursor-pointer font-medium">{f.q}</summary><p class="mt-2 leading-relaxed">{f.a}</p></details>))}</div></section>
+    <section class="mt-10"><h2 class="text-xl font-bold">{local.nearby}</h2><ul class="grid sm:grid-cols-2 gap-3 mt-4">{extendedGuideSlugs.filter(s=>s!==slug).slice(0,8).map((s)=>(<li><a class="underline" href={`/${lang}/${s}/`}>{extendedGuide(s,lang)!.name}</a></li>))}</ul></section>
+  </article>
+  <script type="application/ld+json" set:html={JSON.stringify(faqLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(articleLd)} />
+</BaseLayout>
