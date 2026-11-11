@@ -847,19 +847,19 @@
     "attractions": [
       {
         "name": "ประตูท่าแพ (Tha Phae Gate)",
-        "url": "https://maps.app.goo.gl/ThaPhaeGate"
+        "url": "https://www.google.com/maps/search/?api=1&query=Tha%20Phae%20Gate%2C%20Chiang%20Mai%2C%20Thailand"
       },
       {
         "name": "แม่น้ำปิง (Mae Ping River)",
-        "url": "https://maps.app.goo.gl/MaePingRiver"
+        "url": "https://www.google.com/maps/search/?api=1&query=Ping%20River%2C%20Chiang%20Mai%2C%20Thailand"
       },
       {
         "name": "คาลาเร่ไนท์บาซาร์ (Kalare Night Bazaar)",
-        "url": "https://maps.app.goo.gl/KalareNightBazaar"
+        "url": "https://www.google.com/maps/search/?api=1&query=Kalare%20Night%20Bazaar%2C%20Chiang%20Mai%2C%20Thailand"
       },
       {
         "name": "เชียงใหม่ไนท์ซาฟารี (Night Safari)",
-        "url": "https://maps.app.goo.gl/NightSafariCNX"
+        "url": "https://www.google.com/maps/search/?api=1&query=Chiang%20Mai%20Night%20Safari%2C%20Thailand"
       }
     ],
     "tours": [
